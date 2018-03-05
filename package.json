@@ -1,6 +1,6 @@
 {
-  "name": "swisher",
-  "description": "Swisher Site",
+  "name": "example-site",
+  "description": "Example Site",
   "version": "0.0.0",
   "author": "Evan Conrad <econrad@zagmail.gonzaga.edu>",
   "dependencies": {

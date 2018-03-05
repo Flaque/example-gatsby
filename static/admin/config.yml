@@ -1,5 +1,12 @@
 backend:
-  name: example
+   name: github
+   repo: flaque/example-gatsby
+
+backend:
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
 
 media_folder: static/assets
 

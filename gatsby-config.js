@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/posts`,
-        name: "posts"
+        path: `${__dirname}/src/_local`,
+        name: "_local"
       }
     },
     "gatsby-transformer-remark"

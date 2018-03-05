@@ -4,9 +4,9 @@ backend:
 media_folder: static/assets
 
 collections:
-  - name: page
-    label: Page
-    folder: posts
+  - name: posts
+    label: Posts
+    folder: _local/posts
     create: true
     fields:
       - { name: path, label: Path }
